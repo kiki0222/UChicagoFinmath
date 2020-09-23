@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../OrderBook/PriceUpdate.h
+string.h
+-
+
+C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/OrderBook.cpp
+OrderBook.h
+C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/OrderBook.h
+
+C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/OrderBook.h
+map
+-
+iostream
+-
+boost/optional.hpp
+-
+PriceUpdate.h
+-
+

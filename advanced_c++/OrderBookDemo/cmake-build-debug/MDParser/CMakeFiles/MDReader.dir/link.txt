@@ -1,0 +1,2 @@
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe qc libMDReader.a  CMakeFiles/MDReader.dir/MDReader.cpp.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ranlib.exe libMDReader.a

@@ -1,0 +1,2 @@
+/bin/ar qc libTradingStrategy.a  CMakeFiles/TradingStrategy.dir/TradingStrategy.cpp.o CMakeFiles/TradingStrategy.dir/AppBase.cpp.o CMakeFiles/TradingStrategy.dir/BookUpdate.cpp.o CMakeFiles/TradingStrategy.dir/Order.cpp.o
+/bin/ranlib libTradingStrategy.a

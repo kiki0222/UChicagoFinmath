@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../BackTest/BookUpdate.h
+string.h
+-
+iostream
+-
+
+/home/kkkristy/BackTesterDemo/BackTest/MDReader.cpp
+MDReader.h
+/home/kkkristy/BackTesterDemo/BackTest/MDReader.h
+
+/home/kkkristy/BackTesterDemo/BackTest/MDReader.h
+fstream
+-
+stdlib.h
+-
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+boost/algorithm/string.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+BookUpdate.h
+-
+memory
+-
+ctime
+-
+

@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9   -std=gnu++11 -g   CMakeFiles/RunTests.dir/orderbooktests.cpp.o  -o RunTests  ../../lib/libgtestd.a ../../lib/libgtest_maind.a ../../BackTest/libMDReader.a ../../BackTest/libBookBuilder.a ../../BackTest/libTradingStrategy.a ../../BackTest/libOrderManager.a ../../BackTest/libMarketSimulator.a ../../lib/libgtestd.a -lpthread 

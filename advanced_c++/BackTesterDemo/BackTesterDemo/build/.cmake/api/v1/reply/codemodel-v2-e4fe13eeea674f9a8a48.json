@@ -1,0 +1,309 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "BackTest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "BackTest",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"build" : "Tests",
+					"childIndexes" : 
+					[
+						3,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Tests"
+				},
+				{
+					"build" : "Tests/lib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "Tests/lib"
+				},
+				{
+					"build" : "Tests/lib/googlemock",
+					"childIndexes" : 
+					[
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "Tests/lib/googlemock",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "Tests/lib/googletest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "Tests/lib/googletest",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "Tests/tests",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "Tests/tests",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BackTesterDemo",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BackTester",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						6
+					],
+					"name" : "Tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 2
+				},
+				{
+					"childIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gmock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gtest",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BackTesterDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BackTesterDemo-Debug-65d177489ccbc12017df.json",
+					"name" : "BackTesterDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BookBuilder::@46693d3960d5a484d614",
+					"jsonFile" : "target-BookBuilder-Debug-e93269e44fb91e2ee99b.json",
+					"name" : "BookBuilder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MDReader::@46693d3960d5a484d614",
+					"jsonFile" : "target-MDReader-Debug-51a706ff9b2e6574cebb.json",
+					"name" : "MDReader",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MarketSimulator::@46693d3960d5a484d614",
+					"jsonFile" : "target-MarketSimulator-Debug-be57946ab570b0e3bac7.json",
+					"name" : "MarketSimulator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "OrderManager::@46693d3960d5a484d614",
+					"jsonFile" : "target-OrderManager-Debug-d6b31dbc53631d0c1506.json",
+					"name" : "OrderManager",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "RunTests::@444f928bc4f95f8eba43",
+					"jsonFile" : "target-RunTests-Debug-1c9fd1183d2f3d7a7d7d.json",
+					"name" : "RunTests",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TradingStrategy::@46693d3960d5a484d614",
+					"jsonFile" : "target-TradingStrategy-Debug-28a26bab68f19ea6e9f7.json",
+					"name" : "TradingStrategy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock::@eb78a71eccbc712f1b45",
+					"jsonFile" : "target-gmock-Debug-a62017eaa6c5e655e44b.json",
+					"name" : "gmock",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gmock_main::@eb78a71eccbc712f1b45",
+					"jsonFile" : "target-gmock_main-Debug-74314eef180489c416bd.json",
+					"name" : "gmock_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest::@52ebe74764de02ec89f3",
+					"jsonFile" : "target-gtest-Debug-4620c8b7b54e9964dee1.json",
+					"name" : "gtest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gtest_main::@52ebe74764de02ec89f3",
+					"jsonFile" : "target-gtest_main-Debug-5f9170c6a6252e349a97.json",
+					"name" : "gtest_main",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kkkristy/BackTesterDemo/build",
+		"source" : "/home/kkkristy/BackTesterDemo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

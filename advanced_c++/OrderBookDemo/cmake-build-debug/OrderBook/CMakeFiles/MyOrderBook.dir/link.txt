@@ -1,0 +1,2 @@
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ar.exe qc libMyOrderBook.a  CMakeFiles/MyOrderBook.dir/MyOrderBook.cpp.obj CMakeFiles/MyOrderBook.dir/PriceUpdate.cpp.obj CMakeFiles/MyOrderBook.dir/BookUpdate.cpp.obj
+C:\PROGRA~2\Dev-Cpp\MinGW64\bin\ranlib.exe libMyOrderBook.a

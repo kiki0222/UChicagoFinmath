@@ -1,0 +1,1 @@
+-IC:/Users/Krist/CLionProjects/OrderBookDemo/MDParser -IC:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook -IC:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/tests/$$gtest_SOURCE_DIR -isystem C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include -isystem C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest 

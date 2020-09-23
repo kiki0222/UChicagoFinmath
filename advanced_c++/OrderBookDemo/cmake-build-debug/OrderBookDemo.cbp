@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OrderBookDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MDParser\;CMake Files\OrderBook\;CMake Files\OrderBookTests\;CMake Files\OrderBookTests\lib\;CMake Files\OrderBookTests\lib\googlemock\;CMake Files\OrderBookTests\lib\googletest\;CMake Files\OrderBookTests\lib\googletest\cmake\;CMake Files\OrderBookTests\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderBookDemo">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/boost_1_68_0/boost_1_68_0"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrderBookDemo"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderBookDemo/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/boost_1_68_0/boost_1_68_0"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 OrderBookDemo/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderBook">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/libOrderBook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 OrderBook"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OrderBook/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/libOrderBook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 OrderBook/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyOrderBook">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/libMyOrderBook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 MyOrderBook"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyOrderBook/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/libMyOrderBook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 MyOrderBook/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock_main/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest_main/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/lib/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/RunTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 RunTests"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RunTests/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/RunTests.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/tests/$gtest_SOURCE_DIR"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/include"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 RunTests/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/OrderBookTests/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MDReader">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/libMDReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 MDReader"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MDReader/fast">
+				<Option output="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/libMDReader.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser"/>
+					<Add directory="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 MDReader/fast"/>
+					<CompileFile command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;C:/Users/Krist/CLionProjects/OrderBookDemo/cmake-build-debug/MDParser/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser/MDReader.cpp">
+			<Option target="MDReader"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser/MDReader.h">
+			<Option target="MDReader"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/BookUpdate.cpp">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/BookUpdate.h">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/MyOrderBook.cpp">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/MyOrderBook.h">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/OrderBook.cpp">
+			<Option target="OrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/OrderBook.h">
+			<Option target="OrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/PriceUpdate.cpp">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/PriceUpdate.h">
+			<Option target="MyOrderBook"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/src/gmock-all.cc">
+			<Option target="gmock"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/src/gmock_main.cc">
+			<Option target="gmock_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/src/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/src/gtest_main.cc">
+			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/tests/orderbooktests.cpp">
+			<Option target="RunTests"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/main.cpp">
+			<Option target="OrderBookDemo"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/MDParser/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MDParser\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBook\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\googlemock\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\googletest\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/lib/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\OrderBookTests\lib\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krist/CLionProjects/OrderBookDemo/OrderBookTests/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OrderBookTests\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

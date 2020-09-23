@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kkkristy/BackTesterDemo/BackTest/AppBase.h
+queue
+-
+Order.h
+/home/kkkristy/BackTesterDemo/BackTest/Order.h
+BookUpdate.h
+/home/kkkristy/BackTesterDemo/BackTest/BookUpdate.h
+
+/home/kkkristy/BackTesterDemo/BackTest/BookUpdate.h
+string.h
+-
+iostream
+-
+
+/home/kkkristy/BackTesterDemo/BackTest/MarketSimulator.cpp
+MarketSimulator.h
+/home/kkkristy/BackTesterDemo/BackTest/MarketSimulator.h
+
+/home/kkkristy/BackTesterDemo/BackTest/MarketSimulator.h
+AppBase.h
+/home/kkkristy/BackTesterDemo/BackTest/AppBase.h
+Order.h
+/home/kkkristy/BackTesterDemo/BackTest/Order.h
+set
+-
+queue
+-
+string
+-
+iostream
+-
+
+/home/kkkristy/BackTesterDemo/BackTest/Order.h
+string.h
+-
+

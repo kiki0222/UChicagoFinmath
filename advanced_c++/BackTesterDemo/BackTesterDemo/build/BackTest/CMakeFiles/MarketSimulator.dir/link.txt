@@ -1,0 +1,2 @@
+/bin/ar qc libMarketSimulator.a  CMakeFiles/MarketSimulator.dir/MarketSimulator.cpp.o CMakeFiles/MarketSimulator.dir/AppBase.cpp.o CMakeFiles/MarketSimulator.dir/Order.cpp.o
+/bin/ranlib libMarketSimulator.a

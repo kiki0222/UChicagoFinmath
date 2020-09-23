@@ -1,0 +1,2 @@
+/bin/ar qc libOrderManager.a  CMakeFiles/OrderManager.dir/OrderManager.cpp.o CMakeFiles/OrderManager.dir/AppBase.cpp.o CMakeFiles/OrderManager.dir/Order.cpp.o
+/bin/ranlib libOrderManager.a

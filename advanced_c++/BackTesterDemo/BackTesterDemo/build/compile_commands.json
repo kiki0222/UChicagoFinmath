@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -o CMakeFiles/BackTesterDemo.dir/main.cpp.o -c /home/kkkristy/BackTesterDemo/main.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/main.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/MarketSimulator.dir/MarketSimulator.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/MarketSimulator.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/MarketSimulator.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/MarketSimulator.dir/AppBase.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/MarketSimulator.dir/Order.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/Order.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/Order.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/OrderManager.dir/OrderManager.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/OrderManager.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/OrderManager.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/OrderManager.dir/AppBase.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/OrderManager.dir/Order.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/Order.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/Order.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/TradingStrategy.dir/TradingStrategy.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/TradingStrategy.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/TradingStrategy.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/TradingStrategy.dir/AppBase.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/AppBase.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/TradingStrategy.dir/BookUpdate.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/BookUpdate.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/BookUpdate.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/TradingStrategy.dir/Order.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/Order.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/Order.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/BookBuilder.dir/BookBuilder.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/BookBuilder.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/BookBuilder.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/BackTest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest   -std=gnu++11 -g   -std=gnu++11 -o CMakeFiles/MDReader.dir/MDReader.cpp.o -c /home/kkkristy/BackTesterDemo/BackTest/MDReader.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/BackTest/MDReader.cpp"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/Tests/lib/googlemock",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googlemock/include -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googlemock -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest/include -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest   -std=gnu++11 -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/kkkristy/BackTesterDemo/Tests/lib/googlemock/src/gmock_main.cc",
+  "file": "/home/kkkristy/BackTesterDemo/Tests/lib/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/Tests/lib/googlemock",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest -I/home/kkkristy/BackTesterDemo/Tests/lib/googlemock/include -I/home/kkkristy/BackTesterDemo/Tests/lib/googlemock -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest/include -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest   -std=gnu++11 -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/kkkristy/BackTesterDemo/Tests/lib/googlemock/src/gmock-all.cc",
+  "file": "/home/kkkristy/BackTesterDemo/Tests/lib/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/Tests/lib/googletest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest/include -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest   -std=gnu++11 -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/kkkristy/BackTesterDemo/Tests/lib/googletest/src/gtest_main.cc",
+  "file": "/home/kkkristy/BackTesterDemo/Tests/lib/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/Tests/lib/googletest",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest -I/home/kkkristy/BackTesterDemo/Tests/lib/googletest/include -I/home/kkkristy/BackTesterDemo/Tests/lib/googletest   -std=gnu++11 -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/kkkristy/BackTesterDemo/Tests/lib/googletest/src/gtest-all.cc",
+  "file": "/home/kkkristy/BackTesterDemo/Tests/lib/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/kkkristy/BackTesterDemo/build/Tests/tests",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/kkkristy/BackTesterDemo/BackTest -I\"/home/kkkristy/BackTesterDemo/Tests/tests/\\$$gtest_SOURCE_DIR\" -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest/include -isystem /home/kkkristy/BackTesterDemo/Tests/lib/googletest   -std=gnu++11 -g   -o CMakeFiles/RunTests.dir/orderbooktests.cpp.o -c /home/kkkristy/BackTesterDemo/Tests/tests/orderbooktests.cpp",
+  "file": "/home/kkkristy/BackTesterDemo/Tests/tests/orderbooktests.cpp"
+}
+]
